@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1020"/><stop offset=".5" stop-color="#1a1442"/><stop offset="1" stop-color="#0a2a45"/></linearGradient>
+<radialGradient id="g1" cx=".78" cy=".25" r=".5"><stop stop-color="#8a6dff" stop-opacity=".75"/><stop offset="1" stop-color="#8a6dff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx=".15" cy=".95" r=".5"><stop stop-color="#16d6f0" stop-opacity=".45"/><stop offset="1" stop-color="#16d6f0" stop-opacity="0"/></radialGradient>
+<radialGradient id="g3" cx=".95" cy=".9" r=".4"><stop stop-color="#ff3dac" stop-opacity=".4"/><stop offset="1" stop-color="#ff3dac" stop-opacity="0"/></radialGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#16d6f0" stop-opacity="0"/><stop offset=".5" stop-color="#16d6f0"/><stop offset="1" stop-color="#16d6f0" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#8a7dff" stroke-opacity=".12"/></pattern>
+</defs>
+<rect width="1600" height="700" fill="url(#sky)"/>
+<rect width="1600" height="700" fill="url(#g1)"/><rect width="1600" height="700" fill="url(#g2)"/><rect width="1600" height="700" fill="url(#g3)"/>
+<rect width="1600" height="700" fill="url(#grid)"/>
+<g opacity=".9">
+<polygon points="1180,80 1300,80 1360,184 1300,288 1180,288 1120,184" fill="none" stroke="#a99aff" stroke-opacity=".5" stroke-width="2"/>
+<polygon points="1230,120 1275,120 1300,164 1275,208 1230,208 1205,164" fill="#8a6dff" fill-opacity=".18" stroke="#16d6f0" stroke-opacity=".7"/>
+<polygon points="40,520 130,520 175,598 130,676 40,676 -5,598" fill="none" stroke="#16d6f0" stroke-opacity=".35" stroke-width="2"/>
+</g>
+<g stroke="url(#beam)" stroke-width="2" opacity=".8"><path d="M0 470H900"/><path d="M500 600H1600"/><path d="M200 120H760"/></g>
+<g fill="#fff"><circle cx="220" cy="90" r="2" opacity=".8"/><circle cx="640" cy="60" r="1.6" opacity=".6"/><circle cx="980" cy="150" r="2.2" opacity=".7"/><circle cx="1420" cy="420" r="2" opacity=".6"/><circle cx="1500" cy="140" r="1.6" opacity=".7"/><circle cx="90" cy="300" r="1.8" opacity=".5"/><circle cx="760" cy="400" r="1.4" opacity=".5"/></g>
+<path d="M0 700V610L180 540L330 600L520 500L700 590L900 520L1100 610L1300 530L1600 620V700Z" fill="#070b18" fill-opacity=".65"/>
+</svg>
